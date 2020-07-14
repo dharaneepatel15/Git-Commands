@@ -15,3 +15,11 @@
 
 #### Fetch
 `git fetch origin` --> Fetch all brnaches and changes from remote to local 
+
+
+
+
+
+### Resources
+- https://git-scm.com/book/en/v2
+- https://github.community/t/what-are-main-differences-between-git-github-and-bitbucket-resp-gitkraken-and-also-git-and-mercuri/1580 
