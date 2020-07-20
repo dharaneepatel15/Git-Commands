@@ -16,7 +16,11 @@
 #### Fetch
 `git fetch origin` --> Fetch all brnaches and changes from remote to local 
 
+#### Git Pull keepig all local changes
 
+1. `git statsh`
+2. `git pull origin`
+3. `git stash pop`
 
 
 
