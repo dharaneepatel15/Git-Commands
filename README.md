@@ -20,13 +20,13 @@
 
 1. `git statsh`
 2. `git pull origin`
-3. `git stash pop`
+3. `git stash pop` - May have merge conflits
 
 #### Remove files that commited by mistake from commit before push
 
-1. `git reset --soft HEAD~1`
-2. `git reset HEAD path/to/unwanted_file`
-3. `git commit -c ORIG_HEAD` - If want to commit again with same message
+1. `git reset --soft HEAD~1` - # Remove the last commit but preserve changes
+2. `git reset HEAD path/to/unwanted_file`- #To remove unneeded file from staging area
+3. `git commit -c ORIG_HEAD` - If want to commit again with same message 
 
 ### Resources
 - https://git-scm.com/book/en/v2
