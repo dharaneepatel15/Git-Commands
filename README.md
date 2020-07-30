@@ -22,7 +22,11 @@
 2. `git pull origin`
 3. `git stash pop`
 
+#### Remove files that commited by mistake from commit before push
 
+1. `git reset --soft HEAD~1`
+2. `git reset HEAD path/to/unwanted_file`
+3. `git commit -c ORIG_HEAD` - If want to commit again with same message
 
 ### Resources
 - https://git-scm.com/book/en/v2
